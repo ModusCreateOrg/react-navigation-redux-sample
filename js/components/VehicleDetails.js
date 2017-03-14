@@ -57,7 +57,7 @@ class VehicleDetails extends Component {
     renderVehicleDetails (vehicleDetails) {
         return (
             <ScrollView style={styles.rootContainer}>
-                <Image style={styles.vehicleImage;} source={{uri:vehicleDetails.VehiclePicture}}/>
+                <Image style={styles.vehicleImage} source={{uri:vehicleDetails.VehiclePicture}}/>
                 {this.renderStarRatings(vehicleDetails)}
                 {this.renderCrashPictures(vehicleDetails)}
                 {this.renderRecalls(vehicleDetails)}
